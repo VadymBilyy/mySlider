@@ -1,0 +1,83 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+/*-----------------------------------*/
+.slider {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1028px;
+  background-color: #f6f6f6;
+  overflow: hidden;
+}
+.slider .slider-content {
+  width: 25000px;
+}
+.slider .slider-item {
+  width: 308px;
+  margin: 26px 0 26px 26px;
+  float: left;
+  border: 1px solid #f0f0f0;
+  padding-bottom: 19px;
+}
+.slider .slider-item img {
+  width: 100%;
+}
+.slider .slider-item .content {
+  padding: 0 19px;
+}
+.slider .slider-item .content h2 {
+  font-size: 23px;
+  color: #3a3a3a;
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+}
+.slider .slider-item .content h4 {
+  font-size: 12px;
+  color: #adadad;
+  font-family: Arial;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+}
+.slider .slider-item .content p {
+  font-size: 12px;
+  line-height: 1.583;
+  color: #3a3a3a;
+  font-family: Arial;
+}
+.slider .slider-item .content a {
+  font-size: 16px;
+  color: #2da936;
+  font-family: Arial;
+  font-weight: bold;
+  text-decoration: none;
+}
+.slider .controls {
+  margin: 0 auto;
+  width: 40px;
+  height: 20px;
+}
+.slider .controls .ctrl-left,
+.slider .controls .ctrl-right {
+  height: 20px;
+  width: 50%;
+}
+.slider .controls .ctrl-left:hover,
+.slider .controls .ctrl-right:hover {
+  cursor: pointer;
+}
+.slider .controls .ctrl-left {
+  background-image: url("../img/arrow-left.png");
+  float: left;
+}
+.slider .controls .ctrl-right {
+  background-image: url("../img/arrow-right.png");
+  float: right;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="dist/css/style.css">
+	</head>
+	<body>
+		<div id="div1"></div>
+		<div id="div2"></div>
+
+		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+		<script src = "dist/mySlider.js"></script>
+		<script>
+
+			createSlider({
+				sliderElement: "#div1", // where to insert slider
+				quantSlide: 1, 			//how much to slide
+				slidesToShow:3, 		// how much to show
+				start: 0,
+				end: 4
+			});
+
+			createSlider({
+				sliderElement: "#div2", // where to insert slider
+				quantSlide: 3, 			//how much to slide
+				slidesToShow:3, 		// how much to show
+				start: 0,
+				end: 8
+			});
+
+		</script>
+	</body>
+</html>
